@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+}
+
+.row-odd {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+}
+.row-odd:hover {
+    background-color: #ddd;
+}
+
+.row-even {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+
+.row-even:hover {
+    background-color: #ddd;
+}
+
+.col {
+    flex: 1
+}

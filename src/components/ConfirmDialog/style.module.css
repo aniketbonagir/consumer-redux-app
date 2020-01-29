@@ -1,0 +1,50 @@
+.bt {
+    margin: 5px;
+}
+
+.bt-ct {
+    margin-top: 25px;
+    display: flex;
+}
+
+.ct {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-ct {
+    height: 100px;
+    font-weight: bold;
+    color: red;
+}
+
+.base-button {
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    min-width: 88px;
+    border: none;
+    height: 26px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: #607D8D;
+    border: 1px solid #364750;
+    color: #FFFFFF;
+    box-shadow: 2px 3px 5px 2px #b8b9ba;
+}
+
+.base-button:hover {
+    background-color: #56707E;
+    border-color: #212B31;
+    color: #FFFFFF;
+    outline: 0;
+    box-shadow: 0 2px 4px 0 rgba(33, 43, 49, 0.5);
+}
+
+.base-button:focus {
+    background-color: #56707E;
+    border: 1px solid #212B31;
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+}
